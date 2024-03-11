@@ -12,5 +12,5 @@ public class RoomRequest {
     private String orderUid;
     private String statusUid;
     private String createdAt;
-    private String updateAt;
+    private String updatedAt;
 }

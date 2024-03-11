@@ -66,7 +66,7 @@ public class RoomImplRepo implements RoomRepo{
                 roomModel.setOrderUid(rs.getString("orderUid"));
                 roomModel.setStatusUid(rs.getString("statusUid"));
                 roomModel.setCreatedAt(rs.getString("createdAt"));
-                roomModel.setUpdateAt(rs.getString("updateAt"));
+                roomModel.setUpdatedAt(rs.getString("updatedAt"));
                 data.add(roomModel);
             }
             return data;
@@ -83,7 +83,7 @@ public class RoomImplRepo implements RoomRepo{
                 roomModel.setOrderUid(rs.getString("orderUid"));
                 roomModel.setStatusUid(rs.getString("statusUid"));
                 roomModel.setCreatedAt(rs.getString("createdAt"));
-                roomModel.setUpdateAt(rs.getString("updateAt"));
+                roomModel.setUpdatedAt(rs.getString("updatedAt"));
                 return roomModel;
             }
             else{
