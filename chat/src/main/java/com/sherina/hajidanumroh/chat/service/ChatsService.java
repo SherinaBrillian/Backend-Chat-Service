@@ -10,7 +10,5 @@ public interface ChatsService {
     WebResponseBase updateData(ChatsRequest chatsModel);
     WebResponseBase deleteData(String chatUid);
     ChatsListResponse getAll();
-    ChatsDataResponse getById(String roomUid);
-
-    
+    ChatsDataResponse getById(String roomUid);   
 }
