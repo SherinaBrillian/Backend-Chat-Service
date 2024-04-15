@@ -1,4 +1,4 @@
-# Haji dan Umroh (Modul Chat)- Back-end Java(SpringBoot)
+# Haji dan Umroh - Chat Service Back-end Java(SpringBoot)
 
 This project is a Java application built using the Spring Boot framework. It serves as a template for creating a backend service with database connectivity. The application includes features such as database operations, API endpoints, and testing using Postman.
 
